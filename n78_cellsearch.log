@@ -1,0 +1,70 @@
+Rx Device sampling frequency: 30720000.0Hz, Initial sampling frequency: 30720000.0Hz
+Rx Device carrier frequency: 3408960000.0Hz, Initial carrier frequency: 3408960000.0Hz
+Rx Device bandwidth: 30720000.0Hz, Initial bandwith: 30720000.0Hz
+Rx Device antenna: 1 
+Rx Device gain: 50.0dB, Initial gain: 50.0dB
+Rx Device temperature: 32.7C
+Start of LimeSDR
+Received samples: 153600
+Fifo size: 303960 link rate 0
+underrun: 0 overrun 0 droppedPackets 279
+Received samples: 153600
+Fifo size: 378420 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 486540 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 626280 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 864960 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 1069980 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 1148520 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Received samples: 153600
+Fifo size: 1285200 link rate 0
+underrun: 0 overrun 0 droppedPackets 0
+Stop of LimeSDR
+ -- Frequency correction and timing estimation --
+ Frequency offset: -369 Hz
+ NID2: 1
+ maxcorr: 1.5381
+ Time offset to synchronization block: 956129 samples (31.1240 ms) 
+ Cell identity: 166
+ -- PBCH demodulation and BCH decoding -- 
+ PBCH RMS EVM: 20.868%
+ BCH CRC: 0
+ SSB index: 6
+ k_SSB: 0
+ BCH/MIB Content:
+                     NFrame: 644
+    SubcarrierSpacingCommon: 30
+                      k_SSB: 12
+          DMRSTypeAPosition: 2
+            PDCCHConfigSIB1: 164
+                 CellBarred: 1
+       IntraFreqReselection: 0
+
+ c0 22 nrb 52
+ -- Downlink control information message search in PDCCH -- 
+ Decoded PDCCH candidate #1 at aggregation level 8
+ PDCCH RMS EVM: 49.981%
+ PDCCH CRC: 0
+ -- PDSCH demodulation and DL-SCH decoding -- for sib  
+                     RIV: 95
+                TDDIndex: 0
+    VRBToPRBInterleaving: 0
+               ModCoding: 0
+                      RV: 0
+             SIIndicator: 0
+                Reserved: 0
+
+ fpc: 10000
+ PDSCH RMS EVM: 50.368%
+ PDSCH CRC: 0
+ SIB1 decoding succeeded.
